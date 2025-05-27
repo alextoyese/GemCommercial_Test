@@ -5,4 +5,4 @@ The 'nutrition section' emphasises the importance of nutrition for dogs. The sec
 
 
 
-You can open the page in your browser by downloading the folder on your local machine and opening the Index.html with your browser.
+You can open the page in your browser by downloading the folder to your local machine and opening the index.html file with your browser.
