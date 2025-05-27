@@ -1,0 +1,189 @@
+body {          /*Resets default margin and applies font*/
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #f9f9f9;
+  }
+  
+  .main {           /*centers contents with padding and styles the headline with bold text*/
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fff;
+  }
+  
+  .main h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.2px;
+    align-items: center;
+
+  }
+  
+  .main-circle {            /*Uses flexbox to evenly distribute items horizontally*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 1170px;
+    height: 370px;
+  }
+  
+  .main-left {
+    width: 370px;
+    height: 250px;
+    text-align: left;
+  }
+
+  .main-right {
+    width: 370px;
+    height: 250px;
+    text-align: left;
+  }
+
+  .main-left-a {
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 85px;
+    margin-left: 10;
+    line-height: 110%;
+  }
+  
+  .main-left-b {
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 85px;
+    margin-left: 10;
+    line-height: 110%;
+    padding-top: 45px;
+  }
+  .main-icon {
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  .feature {
+    margin: 15px 0;
+    font-size: 14px;
+  }
+  
+  .main-image {
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    margin: 0 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .get-it-now {         /*created a orange button for clicking*/
+    display: inline-block;
+    background-color: #f37042;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .guarantee {
+    font-size: 13px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  .payment-icons {
+    height: 16px;
+    vertical-align: middle;
+  }
+  
+  .nutrition-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .nutrition-section .content {
+    max-width: 500px;
+    height: 508px;
+  }
+  
+  .nutrition-section h2 {
+    width: 500px;
+    height: auto;
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 110%;
+    letter-spacing: 0.25;
+  }
+  
+  .record-data {        /*Aligns both number and description side by side. Also highlight the percentage in orange color*/
+    width: 500px;
+  }
+  
+  .data {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 12px 0;
+  }
+  
+  .data-number {
+    color: #ea5b3c;
+    font-weight: 700;
+    font-size: 24px;
+    min-width: 60px;
+  }
+  
+  .data-text {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0;
+  }
+  
+  
+  .product-image {
+    max-width: 500px;
+    border-radius: 8px;
+  }
+  
+  .benefit-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 20px;
+    background-color: #fff;
+  }
+  
+  .benefit-section .content {
+    width: 500px;
+  }
+    
+  .benefit-section h2 {
+    width: 500px;
+    height: auto;
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 110%;
+    letter-spacing: 0.25;
+    margin-bottom: 10px;
+  }
+
+  
