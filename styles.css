@@ -1,8 +1,11 @@
-body {          /*Resets default margin and applies font*/
-    margin: 0;
+body {                    /*Resets default margin and applies font*/
     font-family: Arial, sans-serif;
     color: #222;
     background-color: #f9f9f9;
+    width: 100%;           /* Takes full width of the window */
+    max-width: 1200px;     /* Optional: limits maximum width */
+    margin: 0 auto;        /* Center body if it has max-width */
+  
   }
   
   .main {           /*centers contents with padding and styles the headline with bold text*/
@@ -25,26 +28,26 @@ body {          /*Resets default margin and applies font*/
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    width: 1170px;
-    height: 370px;
+    width: 1160px;
+    height: 360px;
   }
   
   .main-left {
-    width: 370px;
-    height: 250px;
+    width: 350px;
+    height: 230px;
     text-align: left;
   }
 
   .main-right {
-    width: 370px;
-    height: 250px;
+    width: 350px;
+    height: 230px;
     text-align: left;
   }
 
   .main-left-a {
     display: flex;
     align-items: center;
-    width: 370px;
+    width: 350px;
     height: 85px;
     margin-left: 10;
     line-height: 110%;
@@ -53,8 +56,8 @@ body {          /*Resets default margin and applies font*/
   .main-left-b {
     display: flex;
     align-items: center;
-    width: 370px;
-    height: 85px;
+    width: 350px;
+    height: 65px;
     margin-left: 10;
     line-height: 110%;
     padding-top: 45px;
@@ -66,8 +69,8 @@ body {          /*Resets default margin and applies font*/
     align-items: left;
     justify-content: left;
     margin-right: 16px;
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
     flex-shrink: 0;
   }
   .feature {
@@ -76,8 +79,8 @@ body {          /*Resets default margin and applies font*/
   }
   
   .main-image {
-    width: 370px;
-    height: 370px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     margin: 0 40px;
     border-radius: 50%;
